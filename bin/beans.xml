@@ -5,8 +5,14 @@
         http://www.springframework.org/schema/beans/spring-beans.xsd">
         
         <bean id="sim" class="org.spring.services.Inwi">
-          <property name="name" value="simo addoumi"/>
-          <property name="id" value="10"/>        
+			<property name="name" value="simo addoumi"/>
+			<property name="id" value="10"/>
+			<property name="user" ref="user"/> 
+        </bean>
+        
+        <bean id="user" class="org.spring.models.User">
+            <property name="id" value="101"/>
+            <property name="name" value="mohammed"/>
         </bean>
         
  </beans>

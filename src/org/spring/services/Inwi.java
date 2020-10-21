@@ -1,9 +1,12 @@
 package org.spring.services;
 
+import org.spring.models.User;
+
 public class Inwi implements Sim {
 	
 	private String name;
 	private int id;
+	private User user;
 	
 	
 	
@@ -20,7 +23,6 @@ public class Inwi implements Sim {
 		return name;
 	}
 
-    
 
 	public void setName(String name) {
 		this.name = name;
@@ -31,6 +33,14 @@ public class Inwi implements Sim {
 		this.id = id;
 	}
 
+
+	public User getUser() {
+		return user;
+	}
+
+	public void setUser(User user) {
+		this.user = user;
+	}
 
 	@Override
 	public void calling() {
