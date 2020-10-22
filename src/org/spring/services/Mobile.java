@@ -12,8 +12,7 @@ public class Mobile {
         Inwi sim=context.getBean("sim",Inwi.class);
         System.out.println(sim.getName());
         System.out.println(sim.getId());
-        System.out.println(sim.getUser().getId());
-        System.out.println(sim.getUser().getName());
+        sim.calling();
         
 	}
 }

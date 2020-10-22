@@ -12,5 +12,6 @@
 	<classpathentry kind="lib" path="C:/Users/MohammedAddoumi/Downloads/Compressed/spring-framework-5.0.5.RELEASE-dist/spring-framework-5.0.5.RELEASE/requiered/spring-core-5.0.5.RELEASE.jar"/>
 	<classpathentry kind="lib" path="C:/Users/MohammedAddoumi/Downloads/Compressed/spring-framework-5.0.5.RELEASE-dist/spring-framework-5.0.5.RELEASE/requiered/spring-expression-5.0.5.RELEASE.jar"/>
 	<classpathentry kind="lib" path="C:/Users/MohammedAddoumi/Downloads/Compressed/spring-framework-5.0.5.RELEASE-dist/spring-framework-5.0.5.RELEASE/libs/spring-jcl-5.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/MohammedAddoumi/Downloads/Compressed/spring-framework-5.0.5.RELEASE-dist/spring-framework-5.0.5.RELEASE/libs/spring-aop-5.0.5.RELEASE.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

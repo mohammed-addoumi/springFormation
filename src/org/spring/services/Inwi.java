@@ -1,18 +1,20 @@
 package org.spring.services;
 
-import org.spring.models.User;
+import org.spring.models.Personne;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
 
 public class Inwi implements Sim {
 	
+	@Value("formation spring")
 	private String name;
+	@Value("10")
 	private int id;
-	private User user;
+	@Autowired(required = false)
+	@Qualifier("personne1")
+	private Personne personne;
 	
-	
-	
-	public Inwi() {
-		// TODO Auto-generated constructor stub
-	}
 
 	public int getId() {
 		return id;
@@ -34,17 +36,15 @@ public class Inwi implements Sim {
 	}
 
 
-	public User getUser() {
-		return user;
+	public Personne getPersonne() {
+		return personne;
 	}
 
-	public void setUser(User user) {
-		this.user = user;
-	}
 
 	@Override
 	public void calling() {
 		System.out.println("calling with Iwni Operator");
+		//personne.use();
 
 	}
 
